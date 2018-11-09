@@ -1,0 +1,17 @@
+generate_form.content:
+  path: '/generate-form'
+  defaults:
+    _controller: '\Drupal\generate_ajax_form\Controller\FormController::generate'
+    _title: 'Generate Form Jeux'
+  requirements:
+    _permission: 'access content'
+
+send_form.content:
+  path: '/send-form'
+  defaults:
+    _controller: '\Drupal\generate_ajax_form\Controller\FormController::send'
+    _title: 'Send Form Jeux'
+  requirements:
+    _permission: 'access content'
+
+

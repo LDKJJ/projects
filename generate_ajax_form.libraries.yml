@@ -1,0 +1,8 @@
+form.tree:
+  css:
+    theme:
+      assets/css/custom.css: {}
+  js:
+    assets/js/custom.js: {}
+  dependencies:
+    - core/jquery

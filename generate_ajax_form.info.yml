@@ -1,0 +1,5 @@
+name: 'generate_ajax_form'
+type: module
+description: 'Module for generate form jeux'
+core: 8.x
+package: 'Custom'
